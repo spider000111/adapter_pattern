@@ -2,18 +2,24 @@
 //
 
 #include <iostream>
-#include "ITarget.h"
-#include "Client.h"
+#include "THParameter.h"
+#include "AsureClient.h"
+#include <print>
 
 //adapter design pattern is used to change the class function with different name it does not change the functionality
 //it just change the interface
 int main()
 {
-    adaptee my_adaptee; //this is external
-    Adapter my_linking_adapter(my_adaptee);
+	THParameter thermostat;
+	printf(thermostat.get_parameter_json().c_str());
+	printf("\n");
 
-    Client service_client(my_linking_adapter);
-    service_client.process();
+	AsureClient as_client(thermostat);
+	as_client.print_data();
+
+	//now i am trying to get the aws client but we need to data with different formatting
+	
+
 
 }
 

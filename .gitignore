@@ -7,3 +7,4 @@
 /x64/Debug
 /.vs/adapter_pattern/v17
 /adapter_pattern/adapter_pattern.vcxproj
+/adapter_pattern/adapter_pattern.vcxproj.filters
