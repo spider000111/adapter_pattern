@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/adapter_pattern/FileContentIndex
+/adapter_pattern/x64/Debug
+/x64/Debug
+/.vs/adapter_pattern/v17
+/adapter_pattern/adapter_pattern.vcxproj
